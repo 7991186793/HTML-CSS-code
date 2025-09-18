@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script Demo</title>
+</head>
+<body>
+    <p id="p1" name="para1">-----------</p>
+    <br><br>
+    <input type="button" value="clickme" onclick="show()">
+    <script>
+        function show(){
+            var n1=parseInt(prompt("enter first number"));
+            var n2=parseInt(prompt("enter second number"));
+            var n3=n1+n2;
+            //let ans=confirm("Are you sure to proceed?");
+            alert("n3 = "+n3);
+            
+            //document.getElementById("p1").innerHTML=ans;
+        }
+    </script>
+</body>
+</html>

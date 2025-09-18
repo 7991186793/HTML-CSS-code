@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0pt;
+    padding: 0px;
+}
+form{
+    background-color: black;
+    width: 50%;
+    height:450px;
+    margin-left: 400px;
+    box-shadow: blue;
+    
+}
+    
+.contain{ 
+    width: 100vw;
+    height:100vh;
+    background-color:black;
+    margin-left: 30;
+    margin-top:  0; 
+    text-align: center;
+    color:white;
+    background-image: url("blue-light-formation-4k");
+    background-size: 100% 100%;
+    font-family: "mulish", sans-serif;
+}
+.contain h1{
+    font-size: 36px;
+    color: aqua;
+
+}
+.contain .text{
+    position: relative;
+    top: 7%;
+
+    
+}
+
+.inp1{
+    border: none;
+    background-color:black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+.inp2{
+    border: none;
+    background-color:black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40pt;
+    outline: none;
+    color: white;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin: top 10pt;
+    cursor: pointer;
+}
+button:hover{
+    border: 3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black
+}
+p{
+    margin: 30px;
+    font-size: 20px;
+}
+p span{
+    color: aqua;
+    cursor: pointer;
+}

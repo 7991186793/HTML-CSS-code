@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+
+    @keyframes change_color {
+        from{background-color: dodgerblue;height: 300px;}
+        to{background-color: blueviolet;height:200px;}
+    }
+   
+
+    @keyframes change_color {
+        0%{background-color: dodgerblue;height: 200px;}
+        25%{background-color: pink;height: 250px;}
+        50%{background-color: aquamarine;height: 300px;}
+        75%{background-color: indianred;height: 250px;}
+        100%{background-color: lightseagreen;height: 200px;}
+               
+    }
+   
+    div{color:white;}
+    #parent{
+        background-color: cyan;
+        width: 100%;
+        height: 500px;
+            display: flex;
+            
+            align-items: center; /* veritcal center*/
+            justify-content: center; /* horozontal center*/
+            flex-direction: row-reverse;
+
+           }
+    #div1{
+        background-color: red;
+        width: 200px;
+        height: 300px;
+         }
+    #div2{
+        background-color: green;
+        width: 200px;
+        height: 300px;
+        }
+        #div2:hover{
+         animation-name: change_color;
+         animation-duration: 10s;
+         animation-delay: 2s;
+        
+        }
+
+    #div3{
+        background-color:rgba(0,0,255,0.5);
+        width: 200px;
+        height: 300px;
+        float: left;
+        }
+
+  </style>
+
+</head>
+<body>
+    
+    <div id="parent">
+        <div id="div1">this is div1</div>
+        <div id="div2">this is div2</div>
+        <div id="div3">this is div3</div>
+    </div>
+
+</body>
+</html>

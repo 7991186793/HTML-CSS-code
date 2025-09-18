@@ -1,0 +1,43 @@
+*{
+    margin-top: 0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    background-color: black;
+    color:white;
+    list-style-type: none;
+    border:2px solid red;
+    border-radius: 10px;
+       
+}
+
+ul li{
+    display: inline-block;
+    margin:10px; 
+    margin-top: 0;
+    font-size: 20px;
+
+}
+.ddm1{
+    display: none;
+}
+ul li:hover .ddm1 {
+    display:block;
+    position: absolute;
+    margin-top:10px;
+
+}
+.ddm1 ul {
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+.ddm1 ul li{
+    display:block;
+
+}

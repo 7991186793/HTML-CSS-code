@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form
+        {
+            background-color:skyblue;
+        }
+        input
+        {
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+    </style>
+    <script>
+        function f1()
+        {
+            alert("plese check all entries properly");
+        }
+    </script>
+</head>
+<body>
+    <center>
+            <fieldset>
+                <legend> prsonal info </legend>
+            <form name="myform" action="table.html" method="post"> 
+                <label for="un"> username </label>&nbsp;&nbsp;
+                <input type="text" id="un" name="username" size="30" required >
+                <br><br>
+                <label for="pwd"> password </label>&nbsp;&nbsp;
+                <input type="password" id="pwd" name="pwd" size="30" required >
+                <br><br>
+                <p> write your comments here </p>
+                <textarea rows="5" cols="20"></textarea>
+                <br><br>
+                <audio controls autoplay unmute>
+                    <source src="song1.mp3" type="audio/mpeg">
+                </audio>
+                <br><br>
+                <video controls autoplay unmute>
+                    <source src="song1.mp4" type="video/mpeg">
+                </video>
+                <br><br>
+                <p> select course you want to pursure </p>                    
+                <input type="radio" id="bca" name="rad1" value="bca"> BCA
+                <input type="radio" id="bba" name="rad1" value="bba"> BBA
+                <input type="radio" id="mba" name="rad1" value="mba"> MBA
+                <br><br>
+                <p> select subject you want to pursure </p>                    
+                <input type="checkbox" id="math" name="cb1" value="math"> MATH
+                <input type="checkbox" id="phy" name="cb2"   value="phy"> PHY
+                <input type="checkbox" id="chem" name="cb3" value="chem"> CHEM
+                <br><br>
+                <p> select college you want </p>
+                <input type="radio" id="srgc" name="rad2" value="srgc"> SRGC
+                <input type="radio" id="sdmc" name="rad2" value="sdmc"> SDMC
+                <input type="radio" id="sd" name="rad2"    value="sd"> SD
+                
+<br><br>
+<input type="submit" value="ok">
+<input type="reset" value="clear all">
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>

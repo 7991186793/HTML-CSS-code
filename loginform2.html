@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form
+        {
+            background-color: aquamarine;
+        }
+        input
+        {
+            background-color:black;
+            color: beige;
+        }
+    </style>
+    <script>
+        function  f1();
+        {
+            alert("please check your all entry");
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend><h1> personal info </h1></legend>
+            <form name="myform" action="table2.html" mrthod="post">
+                <label for="un"> username </label>&nbsp;&nbsp;
+                <input type="text" id="un" name="username" size="30" required>
+                <br><br>
+                <label for="pwd"> password </label>&nbsp;&nbsp;
+                <input type="password" id="pwd" name="pwd" size="30" required>
+                <br><br>
+                <p> select course you want to pursure </p>
+                <input type="radio" id="bca" name="rad1" value="bca">BCA
+                <input type="radio" id="bba" name="rad1" value="bba">BBA
+                <input type="radio" id="mca" name="rad1" value="mca">MCA
+                <br><br>
+                <p> select college you want to pursure </p>
+                <input type="checkbox" id="math" name="rad2" value="math">MATH
+                <input type="checkbox" id="phy" name="rad3" value="phy">PHY
+                <input type="checkbox" id="chem" name="rad4" value="chem">CHEM
+                <br><br>
+                <p> select college you want </p>
+                <input type="radio" id="srgc" name="rad5" value="srgc">SRGC
+                <input type="radio" id="charan" name="rad5" value="charan">CHARAN
+                <input type="radio" id="pg college" name="rad5" value="pg college">PG COLLEGE
+                <input type="radio" id="sd" name="rad5" value="sd">SD
+                <br><br>
+                <input type="reset" value="reset">
+                <input type="submit" value="ok">
+        </fieldset>
+    </center>
+</body>
+</html>
